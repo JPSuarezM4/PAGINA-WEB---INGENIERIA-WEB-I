@@ -74,21 +74,22 @@ nav a:hover{
 .container{
     width: 100%;
     display: flex;
-    max-width: 1100px;
+    max-width: 100%;
     position: relative;
-    place-content: center;
+    place-content: left;
 }
 
 .card{
-    width: 100%;
-    margin: 10px;
-    border-radius: 6px;
+    width: 220px;
+    margin: 25px;
+    border-radius: 10px;
     overflow: hidden;
     background-color: antiquewhite;
     box-shadow: 0px 1px 10px #000;
     cursor: default;
-    transition: all 400ms ease;
-    place-content: center;
+    transition: all 100ms ease;
+    
+    
   
     
     
@@ -182,6 +183,29 @@ nav a:hover{
     margin: 0px 0px;
     font-size: 10px;
 }
+
+section .contenedor-main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+input{
+    width: 50vw;
+    padding: 10px;
+    outline: none;
+    border: 5px solid #CCD1E4;
+    
+}
+
+.filtro{
+    display: none;
+}
+
 
 @media (max-width:700px) {
     header{
